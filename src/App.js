@@ -47,7 +47,7 @@ function App() {
       <Navbar mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <Textform showAlert={showAlert} heading="Enter Your Text Below" mode={mode} />
-        <h1>new heading<h1/>
+       <h1>This is heading 1</h1>
     </>
   );
 }
