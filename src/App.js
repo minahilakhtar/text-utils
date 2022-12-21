@@ -46,9 +46,7 @@ function App() {
     <>
       <Navbar mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
-      <div className="container my-5">
-        <Textform showAlert={showAlert} heading="Enter Your Text Below" mode={mode} />
-      </div>
+      <Textform showAlert={showAlert} heading="Enter Your Text Below" mode={mode} />
     </>
   );
 }
